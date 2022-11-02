@@ -1,0 +1,12 @@
+{
+  "name": "larva-dev",
+  "version": "0.0.0",
+  "description": "Lerning tasks",
+  "scripts": {
+    "circle-area": "node ./circle-area"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manafovslava/larva-dev.git"
+  }
+}
