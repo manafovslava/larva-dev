@@ -2,6 +2,7 @@
   "name": "larva-dev",
   "version": "0.0.0",
   "description": "Lerning tasks",
+  "type": "module",
   "scripts": {
     "circle-area": "node ./circle-area"
   },
