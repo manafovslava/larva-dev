@@ -1,6 +1,7 @@
 import { getCircleArea } from './getCircleArea.js';
 
 const radius = [
+  5,
   0,
   Math.pow(8 / Math.PI, 0.5),
   -1,
@@ -12,8 +13,14 @@ const radius = [
   {},
   1,
   3,
+  -3,
 ];
 
-for (let i = 0; i < radius.length; i++) {
-  console.log(`For a radius of ${radius[i]}, the area of ​​a circle is ${getCircleArea(radius[i])}`)
-}
+radius.forEach(element => {
+  try {
+    getCircleArea(); 
+    console.log(`For a radius of ${element}, the area of ​​a circle is ${getCircleArea(element)}`)
+  } catch (error) {
+    console.error(error);
+  }
+})
