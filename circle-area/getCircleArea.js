@@ -1,13 +1,7 @@
-export const getCircleArea = (r) => {
-  if (Number.isNaN(r)) {
-    throw Error;
+export const getCircleArea = (radius) => {
+  if (typeof radius !== 'number' || Number.isNaN(radius) || radius < 0) {
+    throw new Error('Invalid radius: ${radius}');
   }
-  if (typeof r !== 'number' && !isNaN(r)) {
-    throw Error; 
-  }
-  if (r < 0 ) {
-    throw Error;
-  } else {
-    return Math.PI * Math.pow(r, 2);
-  }
+
+  return Math.PI * Math.pow(radius, 2);
 }
