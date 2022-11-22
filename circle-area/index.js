@@ -16,10 +16,10 @@ const radiuses = [
   -3,
 ];
 
-radiuses.forEach(radius => {
+radiuses.forEach((radius) => {
   try { 
     console.log(`For a radius of ${radius}, the area of ​​a circle is ${getCircleArea(radius)}`)
-  } catch (Error) {
-    console.log(Error.toString());
+  } catch (error) {
+    console.log(error.toString());
   }
 })
