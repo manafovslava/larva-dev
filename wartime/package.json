@@ -1,0 +1,13 @@
+{
+  "name": "ligth-wartime",
+  "version": "0.0.0",
+  "description": "Lerning tasks",
+  "type": "module",
+  "scripts": {
+    "war-time:start": "node war-time.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manafovslava/larva-dev.git"
+  }
+}
