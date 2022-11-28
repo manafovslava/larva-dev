@@ -4,7 +4,8 @@
   "description": "Lerning tasks",
   "type": "module",
   "scripts": {
-    "circle-area": "node ./circle-area"
+    "circle-area": "node ./circle-area",
+    "blackout-time:start": "node ./blackout-time"
   },
   "repository": {
     "type": "git",
