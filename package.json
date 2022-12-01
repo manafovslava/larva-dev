@@ -10,5 +10,8 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/manafovslava/larva-dev.git"
+  },
+  "dependencies": {
+    "luxon": "^3.1.1"
   }
 }

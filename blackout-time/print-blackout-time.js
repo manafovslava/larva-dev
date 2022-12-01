@@ -1,3 +1,5 @@
+import { DateTime } from 'luxon';
+
 export const printBlackoutTime = (date) => {
     if (!(date instanceof Date)) {
         throw new Error(
@@ -18,4 +20,4 @@ export const printBlackoutTime = (date) => {
     console.log(header + '\n' + body + '\n');
 };
 
-const formatDate = (date) => `${date.getDate()}.${date.getMonth() + 1}.${date.getFullYear()}`;
+const formatDate = (date) => DateTime.fromJSDate(date).toFormat('dd.MM.yyyy');
