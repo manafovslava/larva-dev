@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "circle-area": "node ./circle-area",
-    "blackout-time:start": "node ./blackout-time"
+    "blackout-time:start": "node ./blackout-time",
+    "interval-clock:start": "node ./interval-clock",
+    "timeout-clock:start": "node ./timeout-clock"
   },
   "repository": {
     "type": "git",
